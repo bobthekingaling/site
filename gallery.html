@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#111111">
+	<meta name="description" content="Explore the ChargeMate product gallery, from everyday charging on the move to the details of the charger itself.">
+	<title>Gallery | ChargeMate</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="images/logo.ico">
+	<link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body id="top">
+	<header class="site-header gallery-header">
+		<a class="wordmark" href="index.html" aria-label="ChargeMate home">CHARGE<span>MATE</span></a>
+		<nav class="main-nav" aria-label="Main navigation">
+			<a href="index.html#home">Home</a>
+			<a href="about.html">About</a>
+			<a href="gallery.html" aria-current="page">Gallery</a>
+			<a href="faq.html">FAQ</a>
+			<a href="contact.html">Contact</a>
+		</nav>
+	</header>
+
+	<main class="gallery-page">
+		<section class="gallery-intro" aria-labelledby="gallery-title">
+			<div>
+				<p class="eyebrow"><span class="eyebrow-line"></span> The ChargeMate collection</p>
+				<h1 id="gallery-title">POWER<br>IN <span>FRAME.</span></h1>
+			</div>
+			<p class="gallery-lede">Made for days in motion. Take a closer look at the details, the design, and the power that goes with you.</p>
+			<span class="gallery-count" aria-label="Two product images"><span>02</span> PRODUCT VIEWS</span>
+		</section>
+
+		<section class="gallery-grid" aria-label="ChargeMate product images">
+			<figure class="gallery-item gallery-item-wide">
+				<button class="gallery-open" type="button" data-gallery-src="images/Picture2.png" data-gallery-alt="ChargeMate product overview with its features, charging steps, and lifestyle imagery." data-gallery-caption="Everyday power, wherever the day takes you.">
+					<img src="images/Picture2.png" alt="ChargeMate product overview with its features, charging steps, and lifestyle imagery." width="1280" height="720">
+					<span class="gallery-open-label">View full image <span aria-hidden="true">↗</span></span>
+				</button>
+				<figcaption><span class="gallery-index">01 / ON THE MOVE</span><span class="gallery-caption">Power for the everyday.</span></figcaption>
+			</figure>
+			<figure class="gallery-item gallery-item-detail">
+				<button class="gallery-open" type="button" data-gallery-src="images/Picture1.png" data-gallery-alt="Close-up of the red ChargeMate wireless charger, braided charging cable, phone, and retail packaging." data-gallery-caption="A closer look at the ChargeMate design.">
+					<img src="images/Picture1.png" alt="Close-up of the red ChargeMate wireless charger, braided charging cable, phone, and retail packaging." width="669" height="720">
+					<span class="gallery-open-label">View full image <span aria-hidden="true">↗</span></span>
+				</button>
+				<figcaption><span class="gallery-index">02 / THE DETAILS</span><span class="gallery-caption">Built to keep up.</span></figcaption>
+			</figure>
+		</section>
+	</main>
+
+	<dialog class="gallery-viewer" aria-label="Full-size product image">
+		<button class="gallery-close" type="button" aria-label="Close image viewer">Close <span aria-hidden="true">×</span></button>
+		<img class="gallery-viewer-image" alt="">
+		<p class="gallery-viewer-caption"></p>
+	</dialog>
+
+	<footer class="site-footer">
+		<a class="wordmark" href="index.html">CHARGE<span>MATE</span></a>
+		<p>Stay powered. Stay in your element.</p>
+		<a class="back-top" href="#top">BACK TO TOP <span aria-hidden="true">↑</span></a>
+	</footer>
+	<script src="scripts/gallery.js"></script>
+</body>
+
+</html>
